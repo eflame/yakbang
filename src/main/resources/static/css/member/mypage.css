@@ -160,7 +160,7 @@
 
     /* 취소 버튼 스타일 */
     .btn-primary {
-        background: #52d7cf;
+        background: var(--secondary-color);
         color: white;
     }
 

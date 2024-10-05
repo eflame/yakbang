@@ -46,7 +46,7 @@
       padding-left: 26px;
       color: #fff;
       border: 0;
-      background-color: #52d7cf;
+      background-color: var(--secondary-color);
       background-image: url("/images/common/bg_check_white.svg");
       background-position: left 4px top 50%;
     }
@@ -99,8 +99,8 @@
         opacity: 0;
         &:checked + .gender {
           color: white;
-          border-color: #52d7cf;
-          background-color: #52d7cf;
+          border-color: var(--secondary-color);
+          background-color: var(--secondary-color);
         }
       }
       .gender {
@@ -117,8 +117,8 @@
         border: 1px solid #373f57;
         cursor: pointer;
         &:hover {
-          border-color: #52d7cf;
-          background-color: #52d7cf;
+          border-color: var(--secondary-color);
+          background-color: var(--secondary-color);
           color: white;
         }
       }

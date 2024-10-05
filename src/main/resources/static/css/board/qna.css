@@ -72,7 +72,7 @@
     line-height: 22px;
   }
   .qmark {
-    color: #16a87b;
+    color: var(--main-color);
   }
 }
 

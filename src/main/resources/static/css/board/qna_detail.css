@@ -126,7 +126,7 @@
 .btn-answer {
   color: #fff;
   border: none;
-  background-color: #52d7cf;
+  background-color: var(--secondary-color);
   margin-left: 1%;
   margin-top: 20px;
 }

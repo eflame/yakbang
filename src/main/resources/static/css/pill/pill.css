@@ -39,7 +39,7 @@
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
-    width: calc(35% - 35px);
+    width: calc(33% - 10.3px);
     height: 300px;
     color: #101219;
     font-size: 18px;
@@ -188,7 +188,7 @@
         border-radius: 15px;
         &.active {
             background-color: #dcf0ea;
-            color: #16a87b;
+            color: var(--main-color);
         }
     }
 }
@@ -274,7 +274,7 @@
         text-align: left;
     }
     .review-cnt {
-        color: #16a87b;
+        color: var(--main-color);
     }
 
     .sort-bar {
@@ -436,7 +436,7 @@
                     margin-left: 12px;
                     line-height: 19px;
                     padding: 0px 5px;
-                    background: #16a87b;
+                    background: var(--main-color);
                     font-weight: 500;
                     font-size: 12px;
                     color: #fff;
@@ -445,7 +445,7 @@
             }
             .bar-graph-bar {
                 height: 8px;
-                background: #16a87b;
+                background: var(--main-color);
                 border-radius: 4px;
             }
             .bar-graph-bg {
@@ -472,10 +472,10 @@
                     display: block;
                 }
                 .bar-graph-bar {
-                    background: #16a87b;
+                    background: var(--main-color);
                 }
                 .bar-graph-txt {
-                    color: #16a87b;
+                    color: var(--main-color);
                 }
             }
         }
@@ -579,5 +579,35 @@
             top: 20px;
             color: #303030;
         }
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .pill-list {
+        width: 91%;
+    }
+    .section-box {
+        margin-left: 30px;
+        margin-right: 30px;
+        width: auto;
+    }
+    .tabs {
+        margin-left: 30px;
+        margin-right: 30px;
+        width: auto;
+    }
+    .tab-content {
+        .title-section {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+}
+@media screen and (max-width: 1023px) {
+    .pill-list {
+        width: calc(100% - 60px);
+    }
+    .pill-item {
+        width: calc(33% - 12px);
     }
 }
